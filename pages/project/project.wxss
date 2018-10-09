@@ -1,0 +1,39 @@
+.text{
+  display: flex;
+  flex-direction: column;
+  border: 1 solid gainsboro;
+  width: 85%;
+  height: 700rpx;
+  
+  background-color:silver;
+  margin-top: 150rpx;
+  margin-left: 50rpx;
+  border-radius: 10px;
+  
+}
+.title{
+  flex:1;
+  font-size: 0.9rem;
+  font-weight: 700;
+  margin-top: 35rpx;
+  text-align: center;
+}
+.text1{
+  flex: 1;
+  font-size: 0.8rem;
+  border: 1 solid white;
+  border-radius: 5px;
+  background-color:cornflowerblue;
+  margin: 20rpx;
+  color: white;
+  justify-content: center;
+  text-align: center;
+  padding-top: 10rpx;
+}
+.name{
+  flex: 1;
+  display: flex;
+  align-content: left;
+  margin-bottom: 20rpx;
+  
+}

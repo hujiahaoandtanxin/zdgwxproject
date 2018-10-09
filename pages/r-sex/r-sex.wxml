@@ -1,0 +1,12 @@
+<!--pages/r-sex/r-sex.wxml-->
+<view class="divLine"></view>
+<form bindsubmit='formSubmit'> 
+  <view class='case'>
+  <radio-group class="radio-group" bindchange="radioChange">
+  <label class="radio" wx:for="{{items}}">
+    <radio value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+  </label>
+</radio-group> 
+  <button form-type='submit' type='primary' bindtap='jumpBack' >完成</button>
+  </view>                                    
+</form> 

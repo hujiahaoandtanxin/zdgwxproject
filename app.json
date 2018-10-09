@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/order/order",
+    "pages/mine/mine",
+    "pages/login/login",
+    "pages/firstPage/firstPage",
+    "pages/detail-info/detail-info",
+    "pages/project/project",
+    "pages/map/map",
+    
+    
+    "pages/r-username/r-username",
+    "pages/r-password/r-password",
+    "pages/r-sex/r-sex",
+    "pages/r-phone/r-phone",
+    "pages/register/register", 
+    "pages/index/index",
+    "pages/logs/logs"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/firstPage/firstPage",
+        "text": "首页",
+       "iconPath": "pages/images/localpic/icon_component.png",
+       "selectedIconPath": "pages/images/localpic/icon_component_HL.png"
+        
+      },
+      {
+        "pagePath": "pages/order/order",
+        "text": "订单",
+        "iconPath": "pages/images/localpic/icon_API.png",
+        "selectedIconPath": "pages/images/localpic/icon_API_HL.png"
+      },
+        {
+          "pagePath": "pages/mine/mine",
+          "text": "我的",
+          "iconPath": "pages/images/localpic/wechat.png",
+          "selectedIconPath": "pages/images/localpic/wechatHL.png"
+        }
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+.divLine {
+  background: darkgray;
+  width: 100%;
+  height: 2rpx;
+}
+
+.btn button {
+  width: 75%;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  color: black;
+  background-color:yellow; 
+}
+
+page {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.tablist {
+  display: flex;
+  background: cornflowerblue;
+  height: 80rpx;
+  
+}
+
+.tablist .item {
+  flex: auto;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  font-size: 11pt;
+  color: white;
+}
+
+.tablist .item.select {
+  color: black;
+}
+
+.tablist .item.select::after {
+  content: "";
+  height: 3rpx;
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: cornflowerblue;
+}
+
+.content {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,36 @@
+<view class='container'> 
+    <swiper class="swiper" indicator-dots="true" autoplay="true" interval="5000" duration="1000">  
+      <block wx:for="{{photos}}" wx:for-index="index" wx:key="picId">  
+        <swiper-item>  
+          <image src="{{item.url}}" class="slide-image" mode="aspectFill"/>  
+        </swiper-item>  
+      </block>  
+    </swiper> 
+    <view class='texts'>
+      <text class='text1'>本站热门项目集合</text>
+      <text class='text2'>达成交易最多，好评最多的项目</text>
+    </view>
+    <view class='ads'>
+      <view class='ad'>
+        <image src='http://192.168.20.16/images/pro1.jpeg' mode='aspectFill'></image>
+        <text>服务项目名</text>
+        
+      </view>
+      <view class='ad'>
+        <image src='http://192.168.20.16/images/pro2.jpeg'  mode='aspectFill'></image>
+        <text>服务项目名</text>
+        
+      </view>
+      <view class='ad'>
+        <image src='http://192.168.20.16/images/pro3.jpeg' mode='aspectFill'></image>
+        <text>服务项目名</text>
+        
+      </view>
+      <view class='ad'>
+        <image src='http://192.168.20.16/images/pro4.jpeg' mode='aspectFill'></image>
+        <text>服务项目名</text>
+        
+      </view>
+    </view>
+
+</view>

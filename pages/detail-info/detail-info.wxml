@@ -1,0 +1,13 @@
+<!--pages/detail-info/detail-info.wxml-->
+<view class="divLine"></view>
+<form class='case' bindsubmit='formSubmit'>
+  <view class='project'>
+  <text>{{project}}</text>
+  </view> 
+  <input class='input1' type='text' name='name' value='{{name}}' placeholder='请填写你的真实姓名'></input>
+  <input class='input1' type='number' name='telphone' maxlength='11' value='{{telphone}}' placeholder='请填写你的联系方式'></input>
+  <button class='btn1' type='primary' bindtap='goto'>获取当前地址</button>
+  <input class='address' type='number' name='address'  placeholder='当前地址' value='{{address}}'></input>
+  <button type='primary' form-type='submit' bindtap='gotoOrder' >发起订单</button>
+</form>
+

@@ -1,0 +1,17 @@
+<view class='text'>
+  <text class='title' bindtap='goto' data-text='你需要解决什么问题'>你需要解决什么问题</text>
+
+ <view class='name'>
+  <text class='text1' bindtap='goto' data-text='开关插座维修'>开关插座维修</text>
+    <text class='text1' bindtap='goto' data-text='家用配电箱维修'>家用配电箱维修</text>
+    
+  </view>  
+  <view class='name'>
+  <text class='text1' bindtap='goto' data-text='电线电路维修'>电线电路维修</text>
+    <text class='text1' bindtap='goto' data-text='各种跳闸维修'>各种跳闸维修</text>
+  </view> 
+   <view class='name'>
+    <text class='text1' bindtap='goto' data-text='家庭电路排线/改造'>家庭电路排线/改造</text>
+    <text class='text1' bindtap='goto' data-text='浴霸安装/维修'>浴霸安装/维修</text>
+  </view> 
+</view>

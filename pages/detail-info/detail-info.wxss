@@ -1,0 +1,34 @@
+/* pages/detail-info/detail-info.wxss */
+.divLine{
+ background: darkgray;
+ width: 100%;
+ height: 2rpx;
+}
+.input1{
+  border: 1px solid #eee;
+  width: 85%;
+  height: 40px;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 25px;
+}
+.case button{
+  margin-top: 60rpx;
+  width: 50%;
+  color: black;
+  background-color: yellow;
+}
+.address{
+  border: 1px solid #eee;
+  width: 85%;
+  height: 40px;
+  margin-top: 2rpx;
+  text-align: center;
+  margin-left: 25px;
+  font-size: 0.8rem;
+}
+.project{
+  text-align: center;
+  margin-top: 30rpx;
+  font-weight: 700;
+}
